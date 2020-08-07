@@ -1,44 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Proffy (NodeJS, ReactJS & React-Native)
 
-## Available Scripts
+Desafio da Next Level Week #NLW2 da Rocketseat
 
-In the project directory, you can run:
+- [Proffy (NodeJS, ReactJS & React-Native)](#proffy-nodejs-reactjs--react-native)
+  - [Usage](#usage)
+  - [Technologies](#technologies)
+  - [Installation](#installation)
+  - [Roadmap](#roadmap)
+  - [License](#license)
 
-### `yarn start`
+## Usage
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+On the web app, recyclable collection points can register their locations and useful information, allowing people to find it at the mobile app.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies
 
-### `yarn test`
+This app features all the latest tools and practices in javascript/typescript stack!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ **React JS** — A JavaScript library for building user interfaces - [site](https://reactjs.org/)
+- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS - [site](https://facebook.github.io/react-native/)
+- 💹 **Node JS** — A web framework for Node Js - [site](https://nodejs.org/)
+- 📄 **TypeScript** — TypeScript is a typed superset of JavaScript that compiles to plain JavaScript - [site](https://www.typescriptlang.org/)
+- 📄 **SQLite** — SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine - [site](https://www.sqlite.org/)
+- **Express** - A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications - [site](https://expressjs.com/pt-br/)
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project with the following command:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+git clone https://github.com/doominating/Proffy.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then, get in the project dir and install the dependencies for each environment (backend, frontend and mobile):
 
-### `yarn eject`
+```sh
+cd Proffy/backend
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+cd Proffy/frontend
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd Proffy/mobile
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Finally, you can start the applications (backend/frontend/mobile) with:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+If you are in development environment, you can use the development server for backend (that runs nodemon for watches files modification and automatic re-start server):
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Roadmap
+
+- (**IN PROGRESS**) Creates backend project;
+- (**IN PROGRESS**) Creates frontend project;
+- (**IN PROGRESS**) Creates mobile project;
+- (**IN PROGRESS**) Implements advanced features;
+- Refactoring to improve the code readability;
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
