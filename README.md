@@ -59,8 +59,8 @@ npm dev
 
 ## Roadmap
 
-- (**IN PROGRESS**) Creates backend project;
-- (**IN PROGRESS**) Creates frontend project;
+- (**DONE**) Creates backend project;
+- (**DONE**) Creates frontend project;
 - (**IN PROGRESS**) Creates mobile project;
 - (**IN PROGRESS**) Implements advanced features;
 - Refactoring to improve the code readability;

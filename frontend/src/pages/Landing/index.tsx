@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import learnIcon from '../../assets/images/icons/learn.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
-import studyIcon from '../../assets/images/icons/study.svg';
 import teachIcon from '../../assets/images/icons/teach.svg';
 import landingImg from '../../assets/images/landing.svg';
 import logoImg from '../../assets/images/logo.svg';
@@ -34,8 +34,8 @@ function Landing() {
         />
 
         <div className='buttons-container'>
-          <Link to='/study' className='study'>
-            <img src={studyIcon} alt='Aprender' />
+          <Link to='/learn' className='learn'>
+            <img src={learnIcon} alt='Aprender' />
             Aprender
           </Link>
 

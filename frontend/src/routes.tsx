@@ -8,7 +8,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path='/' exact component={Landing} />
-      <Route path='/study' component={TeacherList} />
+      <Route path='/learn' component={TeacherList} />
       <Route path='/teach' component={TeacherForm} />
     </BrowserRouter>
   );

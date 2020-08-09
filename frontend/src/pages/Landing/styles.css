@@ -61,7 +61,7 @@
   margin-right: 2.4rem;
 }
 
-.buttons-container a.study {
+.buttons-container a.learn {
   background: var(--color-primary-lighter);
 }
 
@@ -69,7 +69,7 @@
   background: var(--color-secondary);
 }
 
-.buttons-container a.study:hover {
+.buttons-container a.learn:hover {
   background: var(--color-primary-light);
 }
 
