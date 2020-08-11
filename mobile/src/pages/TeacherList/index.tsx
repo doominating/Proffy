@@ -1,5 +1,6 @@
 import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-community/async-storage';
+import { useFocusEffect } from '@react-navigation/native';
 import React, { useState } from 'react';
 import { ScrollView, Text, TextInput, View } from 'react-native';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
@@ -17,6 +18,12 @@ function TeacherList() {
   const [subject, setSubject] = useState('');
   const [week_day, setWeekDay] = useState('');
   const [time, setTime] = useState('');
+
+  useFocusEffect(
+    React.useCallback(() => {
+      loadFavorites();
+    }, [])
+  );
 
   function loadFavorites() {
     AsyncStorage.getItem('favorites').then((response) => {
@@ -42,8 +49,6 @@ function TeacherList() {
         time,
       },
     });
-
-    console.log(response.data);
 
     setTeachers(response.data);
 
