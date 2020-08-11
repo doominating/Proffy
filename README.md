@@ -61,7 +61,7 @@ npm dev
 
 - (**DONE**) Creates backend project;
 - (**DONE**) Creates frontend project;
-- (**IN PROGRESS**) Creates mobile project;
+- (**DONE**) Creates mobile project;
 - (**IN PROGRESS**) Implements advanced features;
 - Refactoring to improve the code readability;
 
